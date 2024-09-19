@@ -8,7 +8,7 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
        
-       <!-- This is bean -->
+       <!-- This is first bean -->
        
        <bean class="com.springcore.Employee" name="Tabish">
        <property name="EmpName">
@@ -22,9 +22,25 @@
          <property name="empaddress">
        		<value>Bhiwandi</value>
        </property>
-       
-       
        </bean>
+       
+       
+       <!-- Value as attribute -->
+       <!-- Second bean -->
+
+		<bean class="com.springcore.Employee" name="fatima">
+       <property name="EmpName" value="Momin Fatima" />
+
+        <property name="empsalary" value="20000" />
+       
+         <property name="empaddress" value="Bhiwandi"></property>
+       </bean>
+       
+       
+       
+       <!-- set values using P SCHEMA -->
+       <!-- Third bean -->
+       <bean class="com.springcore.Employee" name="fatima2" p:EmpName="FatimaibnFarooque" p:empsalary="201" p:empaddress="Bhiwandi" />
        
        
 </beans>
