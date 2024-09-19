@@ -37,7 +37,7 @@
        
        
        
-       <!-- set value using P SCHEMA -->
+       <!-- set value using 'P' SCHEMA -->
        <!-- Third bean -->
        <bean class="com.springcore.Employee" name="fatima2" p:EmpName="FatimaibnFarooque" p:empsalary="201" p:empaddress="Bhiwandi" />
        
