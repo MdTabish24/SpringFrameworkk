@@ -27,7 +27,6 @@
        
        <!-- Value as attribute -->
        <!-- Second bean -->
-
 		<bean class="com.springcore.Employee" name="fatima">
        <property name="EmpName" value="Momin Fatima" />
 
